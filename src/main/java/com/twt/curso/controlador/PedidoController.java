@@ -17,12 +17,12 @@ public class PedidoController {
         System.out.println(".... inicializando PedidoController ");
     }
  
-//    @RequestMapping("/pedido/P1234/2")
-//    public String process() {
-//    	
-//        pedidoService.generarPedido("P1234", 2);
-//        return "redirect:/comercio/productos";
-//    }
+    @RequestMapping("/pedido/P1234/2")
+    public String process() {
+    	
+        pedidoService.generarPedido("P1234", 2);
+        return "redirect:/comercio/productos";
+    }
 
 
     @RequestMapping("/pedido/{idProducto}/1")

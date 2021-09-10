@@ -2,6 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,7 +26,7 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">Proyecto Spring MVC</a>
+			<a class="navbar-brand" href="#">Proyecto Spring MVC Tienda</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -39,6 +40,14 @@
 							<span class="sr-only">(current)</span>
 					</a></li>
 				</ul>
+
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link"
+						href="comercio/productos">Productos <span class="sr-only">(current)</span>
+					</a></li>
+				</ul>
+				
+
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active"><a class="nav-link" href="#">Lista
 							de Productos <span class="sr-only">(current)</span>
@@ -85,3 +94,7 @@
 
 	<br>
 	<main class="container">
+	
+	<img
+		src="https://previews.123rf.com/images/suthisakaewkajng/suthisakaewkajng1706/suthisakaewkajng170600343/81286449-la-tabla-de-madera-de-la-perspectiva-en-la-parte-superior-sobre-fondo-de-la-tienda-de-caf%C3%A9-de-la-fal.jpg"
+		alt=""> <img>
